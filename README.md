@@ -14,11 +14,36 @@ Several T-Tests were performed in order to determine if all manufacturing lots a
 
 - T-Test all lots: the T-Test performed on all lots had a mean of 149.78 and a p-value of 0.06028. That value exceeds our 0.05 significance level, meaning we can assume the distribution of the data isn't significantly different from the normal distribution.
 
+![all_t](https://github.com/typicalchazz/MechaCar_Statistical_Analysis/blob/main/Images/t_all.png)
+
 - Lot 1 T-Test: Lot 1 had a sample mean of 1500 and a p-value of 1, meaning the sample mean and population mean do not differ significantly.
+
+![t_1](https://github.com/typicalchazz/MechaCar_Statistical_Analysis/blob/main/Images/t_1.png)
 
 - Lot 2 T-Test: Lot 2 had a sample mean of 1500.2 and a p-value of 0.61, meaning the sample mean and population mean do not differ significantly.
 
+![t_2](https://github.com/typicalchazz/MechaCar_Statistical_Analysis/blob/main/Images/t_2.png)
+
 - Lot 3 T-Test: Lot 3 had a sample mean of 1496.14 and a p-value of 0.04, meaning the sample mean and population mean do significantly differ.
 
+![t_3](https://github.com/typicalchazz/MechaCar_Statistical_Analysis/blob/main/Images/t_3.png)
 
 ## Study Design: MechaCar vs Competition
+I have designed a study for comparing MechaCar to traditional automotive companies' cars. 
+
+- Metrics:
+I am going to test and see if MechaCars are more fuel efficient than leading car brands of today's automotive industry by comparing fuel efficacy data (in terms of MPG).
+
+- Hypotheses:
+
+Null Hypothesis: MechaCars have no differences in fuel efficiency compared to its competitors.
+
+Alternative Hypothesis: MechaCars have different fuel efficiency compared to its competitors.
+
+- Tests to be Performed:
+I would be using a two sample t-test to compare the means from the 2 populations, and (if necessary) a one-tailed t-test to see whether the MechaCar is more fuel efficient.
+
+- Data:
+Ideally to do this, I would have the means and standard deviations of both populations, as well as the number of observations for each. 
+
+

@@ -36,9 +36,9 @@ I am going to test and see if MechaCars are more fuel efficient than leading car
 
 - Hypotheses:
 
-Null Hypothesis: MechaCars have no differences in fuel efficiency compared to its competitors.
+  - Null Hypothesis: MechaCars have no differences in fuel efficiency compared to its competitors.
 
-Alternative Hypothesis: MechaCars have different fuel efficiency compared to its competitors.
+  - Alternative Hypothesis: MechaCars have different fuel efficiency compared to its competitors.
 
 - Tests to be Performed:
 I would be using a two sample t-test to compare the means from the 2 populations, and (if necessary) a one-tailed t-test to see whether the MechaCar is more fuel efficient.
